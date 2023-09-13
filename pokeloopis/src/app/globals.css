@@ -79,6 +79,10 @@
   margin: 0;
 }
 
+body {
+  background-color: red;
+}
+
 html,
 body {
   max-width: 100vw;
