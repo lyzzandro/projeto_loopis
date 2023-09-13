@@ -1,0 +1,14 @@
+.tipo {
+  padding: 12px 24px;
+  background-color: #319cff;
+  border-radius: 8px;
+}
+
+.tipo p {
+  color: #fff;
+  font-family: Inter, Arial, Helvetica, sans-serif;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
