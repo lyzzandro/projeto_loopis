@@ -1,0 +1,12 @@
+.pokeCard{
+    display: flex;
+    justify-content: center;
+    background-color: beige;
+    width: 15vw;
+    height: 22vh;
+    border-radius: 100%;
+}
+.pokeCard img{
+    width: 12vw;
+    height: 20vh;
+}
