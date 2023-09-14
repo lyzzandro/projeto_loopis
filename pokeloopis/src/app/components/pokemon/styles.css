@@ -1,0 +1,17 @@
+<<<<<<< Updated upstream
+=======
+.pokeCard{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: beige;
+    border-radius: 100%;
+    color: #000;
+    text-align: center;
+}
+.pokeCard img{
+    width: 20vw;
+    height: 30vh;
+    filter:brightness(0);
+}
+>>>>>>> Stashed changes
