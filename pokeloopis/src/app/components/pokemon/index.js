@@ -7,14 +7,15 @@ const randomIndex = Math.round(Math.random() * pokemonList.length);
 const pokemon = pokemonList[randomIndex];
 const fetchedPokemon = await fetch(pokemon.url);
 let pokemoninfo = await fetchedPokemon.json();
+let pokemonImg = await pokemoninfo.sprites.front_default
 
-console.log(pokemoninfo);
+console.log(pokemonImg);
 
 export default function Pokemon () {
   return (
   <div className="pokeCard">
     <h1></h1>
-    <img src ={pokemon.sprites.front_default}></img>
+    <img src ={pokemonImg}></img>
   </div>
   );
 }
