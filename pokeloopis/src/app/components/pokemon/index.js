@@ -14,7 +14,7 @@ console.log(pokemonImg);
 export default function Pokemon () {
   return (
   <div className="pokeCard">
-    <h1></h1>
+        <h1>{pokemoninfo.name}</h1>
     <img src ={pokemonImg}></img>
   </div>
   );

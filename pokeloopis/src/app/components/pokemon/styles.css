@@ -1,10 +1,12 @@
 .pokeCard{
     display: flex;
     justify-content: center;
+    flex-direction: column;
     background-color: beige;
-    width: 15vw;
-    height: 22vh;
     border-radius: 100%;
+    color: #000;
+    padding: 1rem;
+    text-align: center;
 }
 .pokeCard img{
     width: 12vw;
