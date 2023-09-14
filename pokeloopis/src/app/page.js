@@ -1,6 +1,8 @@
 import Image from "next/image";
 import styles from "./page.module.css";
+import Pokemon from "./components/pokemon/index";
 // import Tipo from "./components/tipo";
+
 
 const PokeApiUrl = "https://pokeapi.co/api/v2/pokemon?limit=100000&offset=0";
 
@@ -25,6 +27,7 @@ console.log(info.sprites.front_default);
 export default function Home() {
   return (
     <main className={styles.main}>
+      <Pokemon/>
     </main>
   );
 }

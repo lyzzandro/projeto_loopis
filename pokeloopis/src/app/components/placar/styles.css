@@ -1,0 +1,13 @@
+.score-container {
+  background-color: #fff;
+  padding: 1rem;
+  border-radius: 1rem;
+}
+
+.score {
+  font-size: 1rem;
+}
+
+.highscore {
+  font-size: .5rem;
+}
